@@ -10,7 +10,7 @@ Pois há uma autenticaçãovia via OAuth
 
 Abra o seu terminal e execute:
 
-- git clone https://github.com/dev-carol/cubo.git
+- git clone https://github.com/dev-carol/HEAT-NODE.git
 - cd pasta onde foi clonado o projeto e depois abrir em seu editor favorito
 - criar um arquivo .env com seus dados credenciais do GitHub (Veja .env_example como referência)
 - Rode no terminar o comando : `Yarn install`
