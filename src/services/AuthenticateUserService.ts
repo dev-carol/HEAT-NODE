@@ -26,6 +26,7 @@ class AuthenticateUserService {
           Accept: "application/json",
         },
       });
+
     const response = await axios.get<IUserResponse>(
       "https://api.github.com/user",
       {
@@ -62,7 +63,8 @@ class AuthenticateUserService {
         id: user.id
       }
     },
-    process.env.JWT_SECRET,{
+    process.env.JWT_SECRET,
+    {
       subject: user.id,
       expiresIn: "1d"
     }
